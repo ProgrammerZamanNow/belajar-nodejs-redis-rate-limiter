@@ -1,7 +1,7 @@
 import {redis} from "../application/redis.js";
 
-const EXPIRE_TIME = 60;
-const MAX_REQUESTS = 10;
+const EXPIRE_TIME = 1;
+const MAX_REQUESTS = 2;
 
 export const isAllowed = async (user) => {
 
